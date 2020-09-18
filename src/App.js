@@ -2,18 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-const csvtojson = require('csvtojson');
-const csvFilePath = '../test.csv';
-csvtojson()
-  .fromFile(csvFilePath)
-  .then((jsonObj) => {
-    console.log(jsonObj);
-  });
-
-
-
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
